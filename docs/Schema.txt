@@ -1,0 +1,7 @@
+var Schema = mongoose.Schema;
+var tweetSchema = new Schema ({
+  Hashtage: String,
+  Location: String,
+  Keyword: String
+});
+var tweetsNearU = mongoose.model('TweetsNearBy', tweetSchema);

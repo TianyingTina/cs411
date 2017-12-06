@@ -1,0 +1,18 @@
+/**
+ * Tested on Bootstrap 3.3.2
+ * Usage: <button class="btn btn-transparent" type="button">Click me</button>
+ */
+.btn-transparent {
+    background: transparent;
+    color: #F2F2F2;
+    -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+    border: 2px solid #4992B7;
+}
+
+.btn-transparent:hover {
+    color: white;
+    background-color: rgba(255,255,255,0.2);
+}
