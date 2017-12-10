@@ -23,5 +23,5 @@ When you click on the Twitter button, it will search Twitter using your location
 ![image](https://github.com/TianyingTina/cs411/blob/master/public/images/Screenshot7.png)
 When you misspell words, you can edit the search terms by clicking the update button. You can also delete the saved search and create a new search.
 ![image](https://github.com/TianyingTina/cs411/blob/master/public/images/Screenshot8.png)
-Looking Foward:
+#Looking Foward:
 First, we could auto-detect the user’s location with Google’s map api. After getting this information, we could automatically update relevant nearby weather information, show a list nearby interested tweets, and grab pictures from instagram to display as a gallery. We could implement an autocomplete functionality allowing the user to type in part of their search terms and have the app auto fill their query. We also would like to provide a more dynamic view. For example, the user could see information from the APIs on a single view and without having to click individual buttons to toggle the different API information. (Imagine you are opening multiple apps at the same time and they all are smartly synchronized.) We would also add more APIs to get more relevant data.  
